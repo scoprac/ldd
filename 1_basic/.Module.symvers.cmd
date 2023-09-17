@@ -1,0 +1,1 @@
+cmd_/home/sasi/Desktop/ldd/1_basic/Module.symvers := sed 's/\.ko$$/\.o/' /home/sasi/Desktop/ldd/1_basic/modules.order | scripts/mod/modpost -m -a  -o /home/sasi/Desktop/ldd/1_basic/Module.symvers -e -i Module.symvers   -T -
